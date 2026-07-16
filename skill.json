@@ -1,0 +1,27 @@
+{
+  "name": "genpark-vercel-ai-sdk-streamui-renderer-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Vercel AI SDK StreamUI dynamic component compiler.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "vercel",
+    "streamUI",
+    "react-server-components"
+  ],
+  "inputs": {
+    "component_name": {
+      "type": "string"
+    },
+    "component_props": {
+      "type": "object"
+    }
+  },
+  "outputs": {
+    "rendered_ui_markup": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
